@@ -40,6 +40,6 @@ end
 return {
   new = new,
   sync = new,
-  ev = require'websocket.client_ev',
-  copas = require'websocket.client_copas'
+  -- ev = require'websocket.client_ev',
+  -- copas = require'websocket.client_copas'
 }

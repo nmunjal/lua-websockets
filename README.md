@@ -1,3 +1,9 @@
+# Modified lua-websockets
+## About change
+This branch removes the lua-ev and copas dependencies.
+Only sync works.
+websocket.client.new() or websocket.client.sync()
+
 # About
 
 This project provides Lua modules for [Websocket Version 13](http://tools.ietf.org/html/rfc6455) conformant clients and servers. [![Build Status](https://travis-ci.org/lipp/lua-websockets.png)](https://travis-ci.org/lipp/lua-websockets)
